@@ -1,0 +1,85 @@
+#taste .container{
+        padding: 4rem 1rem ;
+        gap: 0 ; 
+        grid-template-areas: 
+        "taste-0 taste-1"
+        "taste-0 taste-2"
+        "taste-0 taste-3"
+        "taste-0 taste-4";
+    }
+    #story h1{
+        padding: 3rem;
+        font-size: 50px;
+    }
+    #story .company-story{
+        padding: 3rem; 
+        grid-template-columns: 1fr; 
+    }
+    #story .company-story div{
+        margin: 0;
+       width: 100%;
+        height: 100%;
+    }
+    #story .company-story img{
+        width: 100%;
+        height: 100%;
+    }
+    section .container{
+        grid-template-columns: 1fr;  
+    }
+    section div{
+    padding: 2rem; 
+}
+section img{
+    height: 450px;
+    width: 200px; 
+    margin: 2rem 0 0 5rem;
+}
+#product-introduce4 .domch-list{
+    margin: 2rem;
+} 
+#product-introduce4 img{
+    margin: 5rem 0;
+    width: 650px;
+}
+#product-introduce9 img{
+    width: 250px;
+}
+
+section .arrow-up{
+    right: 0;
+    margin: -1100px 300px 100px 250px;
+}
+section .arrow-down{
+    right: 0;
+    margin: -1050px 300px 100px 100px;
+}
+#product-introduce4 .arrow-up{
+    margin: -1300px 100px 100px 300px;
+}
+#product-introduce4 .arrow-down{
+    
+    margin: -1250px 100px 100px 300px;
+}
+#product-introduce9 .arrow-up{
+    margin: -1100px 200px 100px 150px;
+}
+#product-introduce9 .arrow-down{
+    margin: -1050px 200px 100px 150px;
+ }
+#reserve{
+    flex-direction: column;
+}
+.reserve-form{
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+}
+.map{display: none;}
+footer{
+    width: 100%;
+    height: 300px;
+}
+footer h1{
+    font-size: 60px;
+}
